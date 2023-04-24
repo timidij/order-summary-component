@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* width: 100vw; */
+    height:99vh;
+    background-color: blue;
+    align-items: center;
+    /* text-align: center; */
+    /* padding: auto; */
+    display: flex;
+    justify-content: center;
+}
+.giv{
+    width: 400px;
+    background-color: red;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    /* align-items: center; */
+    justify-content: space-between;
+    /* margin: auto; */
+}
+.me{
+    margin-top: 0%;
+}

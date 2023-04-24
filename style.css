@@ -1,0 +1,89 @@
+@font-face {
+    font-family: display;
+    src: url(./RedHatDisplay-VariableFont_wght.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: display;
+    color: hsl(223, 47%, 23%);;
+    font-size: 1.2rem;
+    /* width: 97vw; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.logo{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+.sub{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+    margin-top: 30px;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: hsl(225, 100%, 98%);
+}
+.music_icon{
+    width: 30px;
+}
+.para{
+    padding: 40px;
+}
+.change{
+    display: flex;
+    flex-direction: column;
+}
+change:hover{
+    text-decoration: none;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    border: none;
+    margin: 10%;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%) ;
+}
+button:hover{
+    /* background-color: white; */
+    background-color: hsl(223, 47%, 23%);
+}
+.ord{
+    text-decoration: none;
+}
+.chan:hover{
+    text-decoration: none;
+    /* color: hsl(223, 47%, 23%); */
+}
+@media (max-width:440px) {
+    
+    
+    main{
+        width: 80%;
+    }
+}
